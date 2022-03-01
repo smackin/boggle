@@ -1,0 +1,38 @@
+body{ 
+    color: blueviolet;
+}
+
+body { background-color: lightblue;}
+h1 {color: blueviolet; text-shadow: 2px 2px 2px gray;
+  font-family: fantasy;
+text-align: center;}
+td {
+font-size: 2em;
+font-family: fantasy;
+text-align: center;
+border: 2px solid blueviolet;
+box-shadow: 1px 1px 1px gray;
+border-radius: 10px;
+width: 1.5em;
+height: 1.5em;
+}
+.center {margin-left: auto; margin-right: auto; }
+
+
+input {
+    padding: 2px 2px 2px; 
+    border: 2px solid blueviolet;
+    border-radius: 8px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #e7e7e7; color: blueviolet;
+    padding: 3px;
+    font-family: fantasy;
+    font-size: 17px;
+    border: 1.5px solid blueviolet;
+    box-shadow: 1px 1px 1px gray;
+
+}

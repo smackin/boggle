@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel=""stylesheet" href="app.css">
     <title>Boggle</title>
+    <link rel="stylesheet" href="/static/app.css">
+  
 </head>
 <body>
     <h1> Lets Boggle! </h1>
     <div class="container">
-      <table>
+      <table class="center">
         {% for row in board %}
         <tr> 
             {% for letter in row %}
@@ -20,6 +21,16 @@
         {% endfor %}    
       </table>
     </div>
-    <script src="app.js"></script>
+    <form class="form" action="" method="post">
+      <input type="'text"> 
+      <br>
+      <button>Check my Word</button>
+    </form>
+
+    
+    <script src="http://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/static/app.js"></script>
+    
    </body>
 </html>
