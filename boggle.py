@@ -28,7 +28,8 @@ class Boggle():
             board.append(row)
 
         return board
-
+    #begin with an empty board array.  the function then appends 5 'rows', each containing 5 choice(string.ascii_uppercase) which are random letters when printed into the python console.  
+    
     def check_valid_word(self, board, word):
         """Check if a word is a valid word in the dictionary and/or the boggle board"""
 
@@ -43,6 +44,8 @@ class Boggle():
             result = "not-word"
 
         return result
+    
+    # the function above takes in the board and word parameters and returns the corresponding string depending on if the word is real and or on the board already.  
 
     def find_from(self, board, word, y, x, seen):
         """Can we find a word on board, starting at x, y?"""
