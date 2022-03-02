@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boggle</title>
     <link rel="stylesheet" href="/static/app.css">
-  
 </head>
 <body>
+  <nav id="nav-bar">
+    <a>home</a>
+    <a>signin</a>
+    <a>signout</a>
+    <a>signup</a>
+  </nav>
     <h1> Lets Boggle! </h1>
     <div class="container">
       <table class="center">
@@ -21,16 +26,19 @@
         {% endfor %}    
       </table>
     </div>
-    <form class="form" action="" method="post">
-      <input type="'text"> 
+    <form id="form" action=" " method="post">
+      <input type="'text" id="submittedword"> 
       <br>
       <button>Check my Word</button>
     </form>
 
+    <div class="'text">
+      <p id="response"></p>
+    </div>
     
     <script src="http://unpkg.com/jquery"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="/static/app.js"></script>
-    
+
    </body>
 </html>
