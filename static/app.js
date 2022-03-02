@@ -8,6 +8,7 @@ form.addEventListener('submit', async function(e){
     // if the form is empty, nothing will return 
     if (!word) return; 
 
+    // send get request with axios to '/check-word' route with params passed in 
     let res = await axios.get('/check-word', { params: { word: word } }); 
 
     // console.log(res);
