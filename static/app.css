@@ -4,19 +4,25 @@ body { background-color: lightblue;}
 
 h1 {color: blueviolet; 
     text-shadow: 2px 2px 2px gray;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;}
 
 td {
-        color: yellow;
+color: blueviolet;
 font-size: 2em;
-font-family: fantasy;
+font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 border: 2px solid blueviolet;
 box-shadow: 1px 1px 1px gray;
 border-radius: 10px;
 width: 1.5em;
 height: 1.5em;
+font-weight: bold;
+}
+
+#form {
+    text-align: center;
+    padding: 40px 40px 40px;
 }
 
 input {
@@ -31,7 +37,7 @@ button {
     background-color: #e7e7e7; 
     color: blueviolet;
     padding: 1.7px 1.7px 1.7px;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     border: 1.5px solid blueviolet;
     box-shadow: 1px 1px 1px gray;
@@ -45,7 +51,16 @@ button {
 }
 
 .container {
+    text-align: center; 
+}
+
+.response_container {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blueviolet ;
+    font-weight: bold;
+
 }
 
 #nav-bar {
@@ -53,7 +68,7 @@ button {
     justify-content: space-around;
     width: 500px;
     background-color: lightgrey;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     border-radius: 7px;
     color: whitesmoke;
