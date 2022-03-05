@@ -1,5 +1,7 @@
 "use strict";
 
+let score = 0; 
+
 // create a form variable that selects the form from the html by class and add an event listener to prevent the page from reloading once the form is submitted.  
 let form = document.getElementById('form');
 form.addEventListener('submit', async function(e){
@@ -17,9 +19,9 @@ form.addEventListener('submit', async function(e){
    
     let response = res.data.response; 
     console.log(response);
-
-    //  return {"result" :response}
-//    console.log(e)
-    // console.log(form)
+// append response to p id = response 
+let paragraph = document.getElementById("response");
+paragraph.textContent = response;
+//reset form
+form.reset();
 })
-
